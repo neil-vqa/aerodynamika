@@ -49,10 +49,13 @@
 							<line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
 						</svg>
 					</div>
+					<div class="bg-gray-800 px-6 py-10 shadow-sm text-white space-y-4">
+						<h2 class="text-xl mb-5">We have brand new items in our <strong>Merchandise</strong> section</h2>
+						<nuxt-link to="/merchandise" class="px-4 py-2 bg-blue-700 text-white hover:bg-blue-800 w-full">Visit merchandise</nuxt-link>
+					</div>
 				</div>
 			</div>
 		</div>
-		
   </div>
 </template>
 

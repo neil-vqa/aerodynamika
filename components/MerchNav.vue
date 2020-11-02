@@ -6,15 +6,11 @@
 					<NuxtLink to="/" class="text-2xl font-bold">Aerodynamika</NuxtLink>
 				</div>
 				<div class="lg:flex items-center space-x-3 text-center md:text-left">
-					<NuxtLink to="/" class="nav-link hover:text-gray-900">About</NuxtLink>
-					<NuxtLink to="/" class="nav-link hover:text-gray-900">Authors</NuxtLink>
-					<NuxtLink to="/" class="nav-link hover:text-gray-900">Partners</NuxtLink>
+					<h2 class="text-xl underline">Merchandise</h2>
 				</div>
 			</div>
 			<div class="md:flex items-center space-x-5 text-gray-600 text-center">
-				<NuxtLink to="/" class="nav-link hover:text-gray-900">Search</NuxtLink>
-				<NuxtLink to="/merchandise" class="hidden md:block bg-blue-500 px-3 py-2 font-bold uppercase rounded-lg text-xs text-white hover:bg-blue-700">merchandise</NuxtLink>
-				<NuxtLink to="/merchandise" class="md:hidden nav-link hover:text-gray-900">Merchandise</NuxtLink>
+				<NuxtLink to="/" class="hidden md:block bg-blue-500 px-3 py-2 font-bold uppercase rounded-lg text-xs text-white hover:bg-blue-700">Home</NuxtLink>
 			</div>
 		</div>
 	</div>
