@@ -7,7 +7,7 @@
 				</div>
 				<div class="lg:flex items-center space-x-3 text-center md:text-left">
 					<NuxtLink to="/" class="nav-link hover:text-gray-900">About</NuxtLink>
-					<NuxtLink to="/" class="nav-link hover:text-gray-900">Authors</NuxtLink>
+					<NuxtLink to="/" class="nav-link hover:text-gray-900">Gallery</NuxtLink>
 					<NuxtLink to="/" class="nav-link hover:text-gray-900">Partners</NuxtLink>
 				</div>
 			</div>
