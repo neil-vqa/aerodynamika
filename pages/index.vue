@@ -13,7 +13,25 @@
 								<div class="flex flex-col justify-between p-8 space-y-3">
 									<h2 class="text-3xl font-bold hover:underline">{{ article.title }}</h2>
 									<p class="text-base text-gray-700">{{ article.excerpt }}</p>
-									<p class="text-sm text-gray-700 border-t-2 pt-2">{{ convertTime(article.published_at, 'MMM D, YYYY') }}</p>
+									<div class="border-t-2 pt-2 text-gray-700 flex items-center space-x-1">
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+											<path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+											<line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+										</svg>
+										<p class="text-sm">{{ article.primary_author.name }}</p>
+									</div>
+									<div class="flex items-center text-gray-700 space-x-1">
+										<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+										  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+										  <rect x="4" y="5" width="16" height="16" rx="2" />
+										  <line x1="16" y1="3" x2="16" y2="7" />
+										  <line x1="8" y1="3" x2="8" y2="7" />
+										  <line x1="4" y1="11" x2="20" y2="11" />
+										  <rect x="8" y="15" width="2" height="2" />
+										</svg>
+										<p class="text-sm">{{ convertTime(article.published_at, 'MMM D, YYYY') }}</p>
+									</div>
 								</div>
 							</div>
 						</nuxt-link>

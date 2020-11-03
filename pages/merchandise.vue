@@ -17,13 +17,8 @@
 				<div id='collection-component-1604286772047' class="my-10"></div>
 			</div>
 			<div class="col-span-1 hidden lg:block">
-				<div class="grid grid-cols-1 gap-10 mt-10">
-					<div class="bg-gray-800 px-6 py-10 shadow-sm text-white space-y-4">
-						<h2 class="text-3xl">AeroNews</h2>
-						<p>Join the newsletter to receive the latest updates in your inbox.</p>
-						<input type="text" placeholder="Your email address"  class="px-4 py-3 text-black w-full" />
-						<button type="submit" disabled class="px-4 py-2 bg-blue-700 text-white hover:bg-blue-800 w-full">Subscribe</button>
-					</div>
+				<div class="grid grid-cols-1 gap-5 mt-10">
+					<h3 class="text-xl text-gray-700 px-2 text-center">Like, follow, & subscribe to Aerodynamika</h3>
 					<div class="flex justify-center items-center bg-white p-5 shadow-sm space-x-3 text-gray-600">
 						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook cursor-pointer hover:text-gray-900" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -143,7 +138,7 @@ export default {
 						"options": false
 					},
 					"text": {
-						"button": "View product"
+						"button": "View item"
 					},
 					"googleFonts": [
 						"Lato",
